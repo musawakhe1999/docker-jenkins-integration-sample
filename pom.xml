@@ -10,7 +10,7 @@
     <build><finalName>docker-jenkins-integration-sample</finalName>
              <configuration>
                       <image>
-                      <name>musawakhe/</name>
+                      <name>musawakhe/${project.artfactId}</name>
                       </image>
              </configuration>
     </build>
